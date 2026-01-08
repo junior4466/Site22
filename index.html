@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Consultoria - Especialistas em Performance Digital com 15+ anos de experiência. Reduza seu CPL em até 60%.">
+    <title>2Q Consultoria | Especialistas em Performance Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Sticky -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1 class="logo">2Q Consultoria</h1>
+                    <p class="tagline">Especialistas em Performance Digital: 15+ Anos Transformando Leads em Receita.</p>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio">Início</a></li>
+                        <li class="dropdown">
+                            <a href="#servicos">Serviços <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#servicos">Gestão de Tráfego Pago</a></li>
+                                <li><a href="#servicos">SEO</a></li>
+                                <li><a href="#servicos">Analytics & CRO</a></li>
+                                <li><a href="#servicos">Marketing de Conteúdo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#estudos-caso">Estudos de Caso</a></li>
+                        <li><a href="#sobre">Sobre a 2Q Consultoria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="https://www.instagram.com/agencia2qmarketing" target="_blank" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=5569999485475&text=Olá, gostaria de uma análise gratuita com a 2Q Consultoria" target="_blank" class="social-icon" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#formulario" class="btn btn-primary">Solicite sua Análise de CRO Gratuita</a>
+                </div>
+                
+                <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section - Above the Fold -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-headline">Reduza Seu Custo Por Lead (CPL) em até 60% com Estratégias de Performance Digital da 2Q Consultoria.</h2>
+                    <p class="hero-subheadline">Certificados Google & Meta | 15+ anos de experiência em Marketing Digital.</p>
+                    
+                    <!-- Prova Social Rápida -->
+                    <div class="quick-social-proof">
+                        <div class="certification-badges">
+                            <div class="badge">
+                                <i class="fab fa-google"></i>
+                                <span>Google Certified</span>
+                            </div>
+                            <div class="badge">
+                                <i class="fab fa-meta"></i>
+                                <span>Meta Partner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Form Box -->
+                <div class="form-box" id="formulario">
+                    <div class="form-header">
+                        <h3>Análise de Marketing e CRO Gratuita e Sem Compromisso</h3>
+                        <p>Receba um Plano de Ação em vídeo de 15 minutos focado em SEO, Tráfego Pago e CRO. Nenhum vendedor irá te ligar.</p>
+                    </div>
+                    
+                    <form id="lead-form" class="multi-step-form">
+                        <!-- Honeypot Fields (hidden) -->
+                        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                        <input type="email" name="confirm_email" style="display:none" tabindex="-1" autocomplete="off">
+                        
+                        <!-- Step 1 -->
+                        <div class="form-step active" data-step="1">
+                            <h4>Qual é o seu maior desafio?</h4>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="desafio" value="CPL Alto" required>
+                                    <span>Custo por lead muito alto</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="desafio" value="Baixa Conversão">
+                                    <span>Baixa taxa de conversão</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="desafio" value="Pouco Tráfego">
+                                    <span>Pouco tráfego qualificado</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="desafio" value="Outros">
+                                    <span>Outros desafios</span>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-next">Próximo</button>
+                        </div>
+                        
+                        <!-- Step 2 -->
+                        <div class="form-step" data-step="2">
+                            <h4>Qual o seu investimento mensal em marketing?</h4>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="investimento" value="Menos de R$ 5.000" required>
+                                    <span>Menos de R$ 5.000</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="investimento" value="R$ 5.000 - R$ 15.000">
+                                    <span>R$ 5.000 - R$ 15.000</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="investimento" value="R$ 15.000 - R$ 50.000">
+                                    <span>R$ 15.000 - R$ 50.000</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="investimento" value="Mais de R$ 50.000">
+                                    <span>Mais de R$ 50.000</span>
+                                </label>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary btn-prev">Voltar</button>
+                                <button type="button" class="btn btn-primary btn-next">Próximo</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 3 -->
+                        <div class="form-step" data-step="3">
+                            <h4>Seus dados de contato</h4>
+                            <div class="form-group">
+                                <label for="nome">Nome Completo *</label>
+                                <input type="text" id="nome" name="nome" required maxlength="80">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required maxlength="120">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone / WhatsApp</label>
+                                <input type="tel" id="telefone" name="telefone" maxlength="30" placeholder="(00) 00000-0000">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem (opcional)</label>
+                                <textarea id="mensagem" name="mensagem" rows="3" maxlength="500"></textarea>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="lgpd-consent" required>
+                                    <span>Concordo com a <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a> e autorizo o uso dos meus dados conforme a LGPD.</span>
+                                </label>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary btn-prev">Voltar</button>
+                                <button type="submit" class="btn btn-primary btn-submit">Solicitar Análise Gratuita</button>
+                            </div>
+                        </div>
+                        
+                        <div class="form-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                            <p class="progress-text">Passo <span id="current-step">1</span> de 3</p>
+                        </div>
+                    </form>
+                    
+                    <div id="form-feedback" class="form-feedback"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes e Certificações -->
+    <section class="social-proof">
+        <div class="container">
+            <h3 class="section-subtitle">Empresas que confiam na 2Q Consultoria</h3>
+            <div class="clients-logos">
+                <div class="client-logo">
+                    <img src="/placeholder.svg?height=60&width=120" alt="Cliente 1">
+                </div>
+                <div class="client-logo">
+                    <img src="/placeholder.svg?height=60&width=120" alt="Cliente 2">
+                </div>
+                <div class="client-logo">
+                    <img src="/placeholder.svg?height=60&width=120" alt="Cliente 3">
+                </div>
+                <div class="client-logo">
+                    <img src="/placeholder.svg?height=60&width=120" alt="Cliente 4">
+                </div>
+                <div class="client-logo">
+                    <img src="/placeholder.svg?height=60&width=120" alt="Cliente 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estudos de Caso -->
+    <section id="estudos-caso" class="case-studies">
+        <div class="container">
+            <h2 class="section-title">Resultados Reais de Clientes</h2>
+            <p class="section-intro">Veja como ajudamos empresas a transformar seus investimentos em marketing em resultados mensuráveis.</p>
+            
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>E-commerce de Moda</h3>
+                    <div class="case-content">
+                        <div class="case-before">
+                            <h4>Antes</h4>
+                            <p>CPL de R$ 85,00</p>
+                            <p>Taxa de conversão: 1,2%</p>
+                        </div>
+                        <div class="case-strategy">
+                            <h4>Estratégia 2Q</h4>
+                            <ul>
+                                <li>Otimização de campanhas Meta Ads</li>
+                                <li>Redesign de landing pages</li>
+                                <li>Implementação de remarketing estratégico</li>
+                            </ul>
+                        </div>
+                        <div class="case-after">
+                            <h4>Depois</h4>
+                            <p class="highlight">CPL de R$ 32,00 (62% de redução)</p>
+                            <p class="highlight">Taxa de conversão: 3,8%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>SaaS B2B</h3>
+                    <div class="case-content">
+                        <div class="case-before">
+                            <h4>Antes</h4>
+                            <p>15 leads qualificados/mês</p>
+                            <p>CAC de R$ 450,00</p>
+                        </div>
+                        <div class="case-strategy">
+                            <h4>Estratégia 2Q</h4>
+                            <ul>
+                                <li>SEO técnico e conteúdo estratégico</li>
+                                <li>Google Ads focado em intenção</li>
+                                <li>Automação de marketing</li>
+                            </ul>
+                        </div>
+                        <div class="case-after">
+                            <h4>Depois</h4>
+                            <p class="highlight">87 leads qualificados/mês</p>
+                            <p class="highlight">CAC de R$ 180,00 (60% de redução)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Clínica de Saúde</h3>
+                    <div class="case-content">
+                        <div class="case-before">
+                            <h4>Antes</h4>
+                            <p>Pouca visibilidade online</p>
+                            <p>45% taxa de rejeição</p>
+                        </div>
+                        <div class="case-strategy">
+                            <h4>Estratégia 2Q</h4>
+                            <ul>
+                                <li>SEO local otimizado</li>
+                                <li>CRO no site e formulários</li>
+                                <li>Google Ads geolocalizado</li>
+                            </ul>
+                        </div>
+                        <div class="case-after">
+                            <h4>Depois</h4>
+                            <p class="highlight">300% aumento em agendamentos</p>
+                            <p class="highlight">18% taxa de rejeição</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-intro">Soluções integradas de marketing digital focadas em performance e resultados mensuráveis.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Gestão de Tráfego Pago</h3>
+                    <p>Reduza seu CPL com campanhas otimizadas no Google Ads, Meta Ads e LinkedIn Ads. Estratégias baseadas em dados para maximizar ROI.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Redução de CPL em até 60%</li>
+                        <li><i class="fas fa-check"></i> Segmentação avançada</li>
+                        <li><i class="fas fa-check"></i> Otimização contínua</li>
+                        <li><i class="fas fa-check"></i> Reports transparentes</li>
+                    </ul>
+                    <a href="#formulario" class="btn btn-outline">Solicitar Análise</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>Aumente seu tráfego orgânico e conquiste as primeiras posições do Google. SEO técnico, on-page e off-page para resultados duradouros.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Auditoria SEO completa</li>
+                        <li><i class="fas fa-check"></i> Estratégia de palavras-chave</li>
+                        <li><i class="fas fa-check"></i> Link building de qualidade</li>
+                        <li><i class="fas fa-check"></i> SEO local e nacional</li>
+                    </ul>
+                    <a href="#formulario" class="btn btn-outline">Solicitar Análise</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics & CRO</h3>
+                    <p>Transforme visitantes em clientes. Análise de dados, testes A/B e otimização de conversão para aumentar seus resultados.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Configuração de Analytics</li>
+                        <li><i class="fas fa-check"></i> Mapeamento de funil</li>
+                        <li><i class="fas fa-check"></i> Testes A/B e multivariados</li>
+                        <li><i class="fas fa-check"></i> Otimização de landing pages</li>
+                    </ul>
+                    <a href="#formulario" class="btn btn-outline">Solicitar Análise</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Marketing de Conteúdo</h3>
+                    <p>Construa autoridade no seu mercado com conteúdo estratégico que atrai, engaja e converte seu público-alvo.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Estratégia de conteúdo</li>
+                        <li><i class="fas fa-check"></i> Blog posts otimizados</li>
+                        <li><i class="fas fa-check"></i> E-books e materiais ricos</li>
+                        <li><i class="fas fa-check"></i> Copy persuasivo</li>
+                    </ul>
+                    <a href="#formulario" class="btn btn-outline">Solicitar Análise</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Por que escolher a 2Q Consultoria?</h2>
+                    <p>Com mais de 15 anos de experiência em marketing digital, a 2Q Consultoria é especializada em performance e resultados mensuráveis.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Certificações Google & Meta</h4>
+                                <p>Especialistas certificados pelas principais plataformas de anúncios.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>15+ Anos de Experiência</h4>
+                                <p>Centenas de projetos bem-sucedidos em diversos segmentos.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Focados em ROI</h4>
+                                <p>Cada estratégia é desenvolvida para gerar retorno sobre investimento.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <h4>Transparência Total</h4>
+                                <p>Relatórios detalhados e acesso completo às métricas dos seus projetos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=500&width=600" alt="Equipe 2Q Consultoria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contato" class="final-cta">
+        <div class="container">
+            <h2>Pronto para reduzir seu CPL e aumentar suas conversões?</h2>
+            <p>Solicite sua análise gratuita agora e descubra como podemos transformar seus resultados de marketing digital.</p>
+            <a href="#formulario" class="btn btn-primary btn-large">Solicitar Análise Gratuita Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 class="logo">2Q Consultoria</h3>
+                    <p>Especialistas em Performance Digital com 15+ anos de experiência transformando leads em receita.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/agencia2qmarketing" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=5569999485475&text=Olá, gostaria de uma análise gratuita com a 2Q Consultoria" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Gestão de Tráfego Pago</a></li>
+                        <li><a href="#servicos">SEO</a></li>
+                        <li><a href="#servicos">Analytics & CRO</a></li>
+                        <li><a href="#servicos">Marketing de Conteúdo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#estudos-caso">Estudos de Caso</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (69) 99948-5475</li>
+                        <li><i class="fas fa-envelope"></i> contato@2qconsultoria.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2Q Consultoria – Todos os direitos reservados</p>
+                <p>Empresa em conformidade com a LGPD</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA Bar -->
+    <div id="sticky-cta" class="sticky-cta">
+        <div class="container">
+            <span>Solicite sua Análise Gratuita com a 2Q Consultoria</span>
+            <a href="#formulario" class="btn btn-primary btn-small">Solicitar Agora</a>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://api.whatsapp.com/send/?phone=5569999485475&text=Olá, gostaria de uma análise gratuita com a 2Q Consultoria" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/agencia2qmarketing" target="_blank" class="floating-btn instagram-btn" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
